@@ -1,4 +1,4 @@
 def digitize(n):
-    return [int(x) for x in str(n)[::-1]]
+    return list(reversed([int(x) for x in str(n)]))
 
 print(digitize(35231))
