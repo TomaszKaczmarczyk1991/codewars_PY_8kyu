@@ -1,4 +1,2 @@
-def find(array, element):
-    if element in array:
-        return array.index(element)
-    return 'Not found'
+def find(arr, item):
+    return arr.index(item) if item in arr else 'Not found'
